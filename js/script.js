@@ -25,15 +25,15 @@ for (let i=0;i<peliculasAccion.length;i++){
 //creamos las variables para poner los datos que nos interesa de las peliculas 
     let texto = document.createElement('h4')
     let img = document.createElement('img')
-    let contenedor =document.createElement('div')
+   
 
 //añadimos el texto y la imagen
     texto.innerHTML = `${peliculasAccion[i].title}`
     img.src=`https://image.tmdb.org/t/p/w500${peliculasAccion[i].poster_path}`
 //las ponemos en el Html
-    contenedor.appendChild(img);
-    contenedor.appendChild(texto);
-    divAccion.appendChild(contenedor)
+    divAccion.appendChild(img);
+    divAccion.appendChild(texto);
+    
 }
 
 //Hacemos lo mismo por los otros 2 generos
