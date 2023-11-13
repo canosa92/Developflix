@@ -15,4 +15,19 @@ h2 {
   margin-bottom: 10px;
 }
 
+.genero{
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.genero img{
+   width:150px;
+}
+
+.genero h4{
+  width: 150px;
+  text-overflow: ellipsis;
+}
+
 
