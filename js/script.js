@@ -29,7 +29,7 @@ for (let i=0;i<peliculasAccion.length;i++){
    
 
 //añadimos el texto y la imagen
-    texto.innerHTML = `${peliculasAccion[i].title}`
+    texto.innerText = `${peliculasAccion[i].title}`
     img.src=`https://image.tmdb.org/t/p/w500${peliculasAccion[i].poster_path}`
 //las ponemos en el Html
      contenedor.appendChild(img);
@@ -44,7 +44,7 @@ for (let i=0;i<peliculasThriller.length;i++){
 let img = document.createElement('img')
 let contenedor =document.createElement('div')
     
-    texto.innerHTML = `${peliculasThriller[i].title}`
+    texto.innerText = `${peliculasThriller[i].title}`
         img.src=`https://image.tmdb.org/t/p/w500${peliculasThriller[i].poster_path}`
 
     contenedor.appendChild(img);
@@ -56,7 +56,7 @@ for (let i=0;i<peliculasAventuras.length;i++){
     let img = document.createElement('img')
     let contenedor =document.createElement('div')
     
-    texto.innerHTML = `${peliculasAventuras[i].title}`
+    texto.innerText = `${peliculasAventuras[i].title}`
         img.src=`https://image.tmdb.org/t/p/w500${peliculasAventuras[i].poster_path}`
 
     contenedor.appendChild(img);
